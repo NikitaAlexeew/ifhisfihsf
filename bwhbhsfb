@@ -1,0 +1,15 @@
+function calculateDelivery(distance = km, delivery = standard, packing = true) {
+  if delivery = standard || packing = falce {
+    let calDel = distance * 5};
+  if else delivery = standard || packing = true {
+    let calDel = distance * 5 + 15};
+  if else delivery = express || packing = falce {
+    let calDel = distance * 5 + distance * 5 * 30%};
+  if else delivery = express || packing = true {
+    let calDel = distance * 5 + distance * 5 * 30% + 15};
+console.log (calDel)
+}
+
+calculateDelivery(5);
+calculateDelivery(7, 'standard', true);
+calculateDelivery(10, 'express', false);
